@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <img src="background.jpg" alt="image background"> -->
+    <h1>BMI Calculator</h1>
+    <div class="calculator">
+        <div>
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" placeholder="Enter your weight in kg">
+        </div>
+        <div>
+            <label for="height">Height (m):</label>
+            <input type="number" id="height" placeholder="Enter your height in meters">
+        </div>
+        <button id="calculate-button" onclick="calculateBMI()">Calculate BMI</button>
+        <div id="result"></div>
+    </div>
+
+    <div class="unit-converter">
+        <h2>Unit Converter [To aid conversion to the units that suit you] </h2>
+        <div>
+            <label for="unit-from">From:</label>
+            <input type="number" id="unit-from" placeholder="Enter value">
+            <select id="unit-from-unit">
+                
+                <option value="m">m</option>
+                <option value="cm">cm</option>
+                <option value="in">in</option>
+                <option value="kg">kg</option>
+                <option value="lb">lb</option>
+                <option value="ft">ft</option>
+            </select>
+        </div>
+        <div>
+            <label for="unit-to">To:</label>
+            <input type="text" id="unit-to" readonly>
+            <select id="unit-to-unit">
+                <option value="m">m</option>
+                <option value="cm">cm</option>
+                <option value="in">in</option>
+                <option value="kg">kg</option>
+                <option value="lb">lb</option>
+                <option value="ft">ft</option>
+            </select>
+        </div>
+        <button id="convert-button" onclick="convertUnits()">Convert</button>
+    </div>
+
+    <footer>
+
+        &copy; Chioma 2023 | <a href="https://github.com/kamalu-chioma">@chioma</a>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

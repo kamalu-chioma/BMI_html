@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    
+        background-image: url('background.jpg'); /* Add your background image URL here */
+        background-size: contain; /* This will make the image fit within the screen */
+        /* background-repeat: no-repeat; */
+        background-attachment: fixed;
+        background-position: center; /* Center the background image */
+}
+    
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.calculator, .unit-converter {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.calculator div, .unit-converter div {
+    margin: 10px 0;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+}
+
+select {
+    padding: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    position: fixed; /* Use "fixed" for a fixed position */
+    bottom: 0; /* Position it at the bottom of the viewport */
+    left: 0; /* Position it at the left of the viewport */
+    width: 100%; /* Full width of the viewport */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
