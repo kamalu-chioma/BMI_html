@@ -1,66 +1,78 @@
 body {
     font-family: Arial, sans-serif;
-    
-        background-image: url('background.jpg'); /* Add your background image URL here */
-        background-size: contain; /* This will make the image fit within the screen */
-        /* background-repeat: no-repeat; */
-        background-attachment: fixed;
-        background-position: center; /* Center the background image */
+    background-image: url('background.jpg'); /* Add your background image URL here */
+    background-size: cover; /* Make the image cover the entire screen */
+    background-attachment: fixed;
+    background-position: center; /* Center the background image */
+    margin: 0;
+    padding: 0;
 }
-    
 
 h1 {
     text-align: center;
     margin: 20px 0;
 }
 
-.calculator, .unit-converter {
+.calculator {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
+    max-width: 400px; /* Center the box and limit its width */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.calculator div, .unit-converter div {
-    margin: 10px 0;
+.calculator div {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 label {
-    display: inline-block;
-    width: 80px;
     font-weight: bold;
+    flex: 1;
+    margin-right: 10px;
 }
 
-input[type="number"] {
-    width: 100px;
-    padding: 5px;
-}
-
-select {
-    padding: 5px;
+input[type="number"], select {
+    flex: 2; /* Allow inputs to take more space */
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Make sure they fit inside the container */
+    box-sizing: border-box; /* Include padding and border in width */
+    height: 40px; /* Set a fixed height */
 }
 
 button {
     background-color: #007bff;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Make button stretch to container width */
+}
+
+button:hover {
+    background-color: #0056b3;
 }
 
 #result {
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
 }
 
 footer {
-    position: fixed; /* Use "fixed" for a fixed position */
-    bottom: 0; /* Position it at the bottom of the viewport */
-    left: 0; /* Position it at the left of the viewport */
-    width: 100%; /* Full width of the viewport */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: #333;
     color: white;
     text-align: center;
