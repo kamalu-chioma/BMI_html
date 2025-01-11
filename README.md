@@ -1,12 +1,12 @@
-# BMI Calculator with Unit Converter
+# BMI Calculator with Standard Units 
 # Live App Url: [Here](https://kamalu-chioma.github.io/BMI_html/)
 
-A simple web application for calculating BMI and unit conversion.
+A simple web application for calculating BMI in different units .
 
 ## Features
 
-- Calculate BMI based on weight (kg) and height (meters).
-- Unit converter for weight (kg, lb) and height (meters, feet, cm, inches).
+- Calculate BMI based on weight and height.
+- Select standard units for both height and weight from the drop down.
 
 ## Installation
 
@@ -15,8 +15,8 @@ A simple web application for calculating BMI and unit conversion.
 
 ## Usage
 
-1. Enter your weight (kg) and height (meters) to calculate BMI.
-2. Use the unit converter to convert between various units (kg, lb, meters, feet, cm, inches).
+1. Enter your weight and height to calculate BMI.
+2. Use the any of the units available (kg, lb, meters, feet, cm, inches).
 
 ## Contributing
 
