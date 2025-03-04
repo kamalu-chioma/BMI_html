@@ -1,9 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('background.jpg'); /* Add your background image URL here */
-    background-size: cover; /* Make the image cover the entire screen */
+    background-image: url('bg_bmi.jpg');
+    background-size: cover; 
     background-attachment: fixed;
-    background-position: center; /* Center the background image */
+    background-position: center; 
     margin: 0;
     padding: 0;
 }
