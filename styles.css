@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('bg_bmi.jpg');
+    background: linear-gradient(135deg, #ffcc70 0%, #ff8a5c 50%, #ff3d54 100%);
+    background-blend-mode: overlay;
+    background-image: url('https://www.transparenttextures.com/patterns/white-diamond.png');
     background-size: cover; 
     background-attachment: fixed;
     background-position: center; 
@@ -25,7 +27,8 @@ h1 {
 
 .calculator div {
     margin: 15px 0;
-    display: flex;
+/*     display: flex;
+     */
     align-items: center;
     justify-content: space-between;
 }
