@@ -1,6 +1,6 @@
 # BMI Calculator with Standard Units
 
-A simple web application for calculating Body Mass Index (BMI) using various units of measurement.
+Simple web application for calculating Body Mass Index (BMI) using various units of measurement.
 
 ## Live Demo
 
